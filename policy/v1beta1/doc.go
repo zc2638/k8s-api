@@ -19,6 +19,8 @@ limitations under the License.
 // +k8s:openapi-gen=true
 // +k8s:prerelease-lifecycle-gen=true
 
+// +groupName=policy
+
 // Package policy is for any kind of policy object.  Suitable examples, even if
 // they aren't all here, are PodDisruptionBudget, PodSecurityPolicy,
 // NetworkPolicy, etc.

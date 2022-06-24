@@ -23,6 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 )
 
+// +genclient
+// +genclient:nonNamespaced
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // AdmissionReview describes an admission review request/response.

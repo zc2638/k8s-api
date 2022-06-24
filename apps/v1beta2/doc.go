@@ -19,4 +19,6 @@ limitations under the License.
 // +k8s:openapi-gen=true
 // +k8s:prerelease-lifecycle-gen=true
 
+// +groupName=apps
+
 package v1beta2 // import "k8s.io/api/apps/v1beta2"
